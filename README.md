@@ -1,5 +1,5 @@
 # Scriptable-Tags
-Quickly setup static events with scriptable objects using the observer pattern. Custom events can also be created.
+Quickly set up object tags without using the standard Unity tag system.
 
 ## How to install
 This package can be installed through the Unity `Package Manager` with Unity version 2019.3 or greater.
@@ -10,7 +10,7 @@ Open up the package manager `Window/Package Manager` and click on `Add package f
 
 Paste in this repository's url.
 
-`https://github.com/Jason-Skillman/Scriptable-Events.git`
+`https://github.com/Jason-Skillman/Scriptable-Tags.git`
 
 ![unity_package_manager_git_with_url](Documentation~/images/unity_package_manager_git_with_url.png)
 
@@ -29,5 +29,20 @@ If you are using Unity 2019.2 or lower than you will not be able to install the 
 Alternatively you can also install this package as a git submodule.
 
 ```console
-$ git submodule add https://github.com/Jason-Skillman/Scriptable-Events.git Packages/Scriptable-Events
+$ git submodule add https://github.com/Jason-Skillman/Scriptable-Tags.git Packages/Scriptable-Tags
+```
+
+## How to use
+1. Add the `Tag Component` to the object you want to tag.
+1. To create a new Tag scritable object, right click in the project window and navigate to `Create/Scriptable Tags/Tag`.
+1. Give the tag a name in the inspector.
+1. Add the new tag to the tag component.
+1. To check if an object has a tag you can use the `ContainsTag()` function.
+
+```C#
+public Tag tag;
+
+...
+
+if(gameObject.ContainsTag(tag)) { }
 ```
