@@ -1,0 +1,14 @@
+{
+    "name": "JasonSkillman.ScriptableTags",
+    "rootNamespace": "JasonSkillman.ScriptableTags",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
