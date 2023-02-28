@@ -6,6 +6,6 @@
 		[SerializeField]
 		private List<Tag> tags;
 
-		public List<Tag> Tags() => tags;
+		public List<Tag> Tags => tags;
 	}
 }

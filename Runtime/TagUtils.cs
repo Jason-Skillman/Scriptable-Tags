@@ -9,7 +9,7 @@
 			if(!gameObject.TryGetComponent(out TagComponent tagComponent))
 				return false;
 
-			List<Tag> goTagList = tagComponent.Tags();
+			List<Tag> goTagList = tagComponent.Tags;
 			for(int i = 0; i < goTagList.Count; i++) {
 				string goTag = goTagList[i];
 
@@ -25,7 +25,7 @@
         	if(!gameObject.TryGetComponent(out TagComponent tagComponent))
         		return false;
 
-        	List<Tag> goTagList = tagComponent.Tags();
+        	List<Tag> goTagList = tagComponent.Tags;
         	for(int i = 0; i < goTagList.Count; i++) {
         		string goTag = goTagList[i];
 
