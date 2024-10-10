@@ -1,7 +1,7 @@
 {
   "name": "com.jasonskillman.scriptabletags",
   "displayName": "Scriptable Tags",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Quickly set up object tags without using the standard Unity tag system.",
   "keywords": [
 	"scriptable objects",

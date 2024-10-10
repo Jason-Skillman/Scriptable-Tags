@@ -1,5 +1,8 @@
 # Scriptable Tags Changelog
 
+## [1.1.0] - 10/10/2024
+- Refactored to use 128 bit guid instead of string.
+
 ## [1.0.3] - 02/28/2023
 - Create new setter.
 
