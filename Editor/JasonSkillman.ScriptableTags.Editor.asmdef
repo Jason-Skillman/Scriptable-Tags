@@ -1,0 +1,19 @@
+{
+    "name": "JasonSkillman.ScriptableTags.Editor",
+    "rootNamespace": "JasonSkillman.ScriptableTags.Editor",
+    "references": [
+        "GUID:406593b9e4ae2de4e8508e2b75354b04",
+        "GUID:7c04f0dfa9243c04681a55d90d3ff3fc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
